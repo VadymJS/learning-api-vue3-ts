@@ -1,0 +1,56 @@
+[
+  {
+    "episode": 1,
+    "title": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "subtitle": "Знайомство зі спікерами",
+    "video_url": "https://youtu.be/v4qymvKaWaA",
+    "video_time": 20,
+    "description": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "isAvailable": true
+  },
+  {
+    "episode": 2,
+    "title": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "subtitle": "Хто такий таргетолог",
+    "video_url": "https://youtu.be/FIjXrN8w6_k",
+    "video_time": 60,
+    "description": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "isAvailable": false
+  },
+  {
+    "episode": 3,
+    "title": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "subtitle": "Пошук перших клієнтів",
+    "video_url": "https://youtu.be/kISLReswjco",
+    "video_time": 30,
+    "description": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "isAvailable": false
+  },
+  {
+    "episode": 4,
+    "title": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "subtitle": "Налаштування реклами",
+    "video_url": "https://youtu.be/Vrj5ZE5yiBo",
+    "video_time": 20,
+    "description": "test description",
+    "isAvailable": false
+  },
+  {
+    "episode": 5,
+    "title": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "subtitle": "Введення клієнта",
+    "video_url": "https://youtu.be/v4qymvKaWaA",
+    "video_time": 50,
+    "description": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "isAvailable": false
+  },
+  {
+    "episode": 6,
+    "title": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "subtitle": "Гарантований результат",
+    "video_url": "https://youtu.be/FIjXrN8w6_k",
+    "video_time": 60,
+    "description": "Як заробляти від $100 на день на налаштуванні рекламних кампаній Facebook+Instagram",
+    "isAvailable": false
+  }
+]
