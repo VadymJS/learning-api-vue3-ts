@@ -40,6 +40,7 @@ import { useStore } from '../stores/store.ts';
 import LessonList from "../components/LessonList.vue";
 import YouTube from 'vue3-youtube';
 import { toast } from 'vue3-toastify';
+import {YoutubeEvent} from "../types/templateTypes.interface.ts";
 
 const store = useStore();
 const interval = ref<number>(0);
@@ -57,7 +58,7 @@ function openNextLesson(): void {
     notify();
 }
 
-function onChange(event): void {
+function onChange(event: YoutubeEvent): void {
     const playerState = event.data;
 
     if (playerState === 1) {
@@ -66,7 +67,7 @@ function onChange(event): void {
         }
 
         interval.value = setInterval(() => {
-            if (store.timer >= store.lesson.video_time) {
+            if (store.timer >= (store.lesson.video_time || 60)) {
                 clearInterval(interval.value);
 
                 store.lessons[store.currentEpisode].isAvailable = true;

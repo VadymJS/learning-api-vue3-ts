@@ -8,6 +8,11 @@ export interface Lesson {
     isAvailable?: boolean
 }
 
+export interface YoutubeEvent {
+    target: string,
+    data: number
+}
+
 export interface storeState {
     timer: number;
     currentEpisode: number;
