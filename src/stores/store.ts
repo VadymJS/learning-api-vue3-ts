@@ -19,7 +19,7 @@ export const useStore = defineStore('store', {
       this.currentEpisode = episode;
     },
     async getLessons(): Promise<void> {
-      const request: Response = await fetch('./api/lessons.json');
+      const request: Response = await fetch('../../api/lessons.json');
       this.lessons = await request.json();
     },
     changeLesson(lesson: Lesson): void {
