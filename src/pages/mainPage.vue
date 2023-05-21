@@ -4,18 +4,18 @@
             <a href="/">Atom</a>
         </div>
         <h2 class="text-2xl md:text-3xl font-bold my-8">{{ store.lesson.title }}</h2>
-        <h3 class="text-2xl"><span class="text-orange-500">Епізод {{ store.lesson.episode }}. </span>{{ store.lesson.subtitle }}</h3>
+        <h3 class="text-2xl"><span class="text-orange-500">Епізод {{  store.lesson.episode }}. </span>{{  store.lesson.subtitle }}</h3>
         <div class="md:grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
             <div class="col-span-2 mb-8 md:mb-0">
                 <YouTube
-                    :src="store.lesson.video_url"
+                    :src=" store.lesson.video_url ||  ''"
                     class="iframe-container"
                     @state-change="onChange"/>
             </div>
             <LessonList/>
             <div class="lg:col-span-2 my-8 md:m-0 lg:mr-8 text-left">
                 <p class="text-orange-500 text-2xl mb-4">У цьому епізоді ви дізнаєтесь:</p>
-                {{ store.lesson.description }}
+                {{  store.lesson.description }}
             </div>
             <div class="col-span-1 flex flex-col">
                 <span class="font-bold mb-4">Вже переглянули? Отримайте доступ до наступного:</span>

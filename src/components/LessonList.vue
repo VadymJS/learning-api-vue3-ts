@@ -5,7 +5,7 @@
                 class="text-white p-4 rounded-sm font-bold shadow-lg flex items-center w-full"
                 :class="{'bg-orange-500 hover:bg-orange-600': lesson.isAvailable, 'bg-gray-500': !lesson.isAvailable}"
                 :disabled="!lesson.isAvailable"
-                @click="changeLesson(lesson.episode)">
+                @click="changeLesson(lesson.episode || 1)">
                 <svg v-if="lesson.isAvailable" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-a">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
